@@ -121,7 +121,7 @@ var Menu = function () {
 		brush.drawText({
 			x : width / 2,
 			y : height / 3,
-			text : 'FlappyBird BY FIZIONOMIK',
+			text : 'FlappyBird by Spy',
 			size : 50,
 			color : 'white',
 			font : 'myFont',
@@ -263,15 +263,15 @@ var pushVK = game.newTextObject({
 	text : 'Результат на стенку',
 	positionC : p(width/2, height/2),
 	font : 'myFont',
-	size : 30,
+	size : 50,
 	color : '#254364'
 });
 
 var restart = game.newTextObject({
-	text : 'Restart',
+	text : 'Заного',
 	positionC : p(width/2, height/3),
 	font : 'myFont',
-	size : 30,
+	size : 50,
 	color : '#FFFFFF'
 });
 
@@ -283,8 +283,8 @@ game.newLoop('GameOver', function () {
 	brush.drawText({
 		x : width / 2,
 		y : height / 20,
-		text : 'YourScore: ' + score,
-		size : 50,
+		text : 'Твои очки: ' + score,
+		size : 70,
 		color : 'white',
 		font : 'myFont',
 		align : 'center'
