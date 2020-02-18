@@ -1,1 +1,1 @@
-# vkcoin
+# SkanerSoft.github.io
